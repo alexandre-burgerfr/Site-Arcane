@@ -1,0 +1,236 @@
+/* *{
+  margin: auto;
+} */
+body{
+  background: rgb(65,254,131);
+background: linear-gradient(180deg, rgba(65,254,131,1) 0%, rgba(92,218,51,1) 25%, rgba(50,168,42,1) 50%, rgba(40,99,22,1) 75%, rgba(13,13,13,1) 100%);
+margin: 0;
+}
+/* Code pour le changement de couleur en JS */
+
+/* background: rgb(255,215,0);
+background: linear-gradient(180deg, rgba(255,215,0,1) 6%, rgba(41,215,176,1) 28%, rgba(32,196,178,1) 47%, rgba(31,85,158,1) 75%, rgba(22,6,168,1) 99%); 
+*/
+#wrapper{
+  width: 80%;
+  margin: auto;
+}
+.logo_arcane{
+  width: 25%;
+}
+header{
+  display: flex;
+}
+header nav a{
+  color: #dabb1c;
+}
+.banniere{
+  background-image: url(https://cdn1.dotesports.com/wp-content/uploads/sites/8/2020/10/11091045/University-of-Piltover-Art-Legends-of-Runeterra-1024x512-1.png);
+  background-position: inherit;
+  background-size:cover;
+  height: 400px;
+}
+.center{
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  align-self: center;
+  text-shadow: 1px 1px 2px black;
+}
+.center1{
+  text-align: center;
+  color: white;
+  font-family: bold;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px black;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.background_white{
+  background-color: white;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7%;
+  align-items: center;
+}
+.taille_33{
+  width: 33%;
+  margin: 1em 2em;
+}
+.icone_descr{
+  display: flex;
+  margin: 1em auto;
+}
+.icone_descr i{
+  margin: 1em 1em 1em 0;
+}
+i.fab.fa-discord{
+  align-items: center;
+}
+dd{
+  margin: 0;
+}
+.media img{
+  width: 25%;
+}
+.media figure{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.media{
+  background-color: white;
+}
+.tri{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.tri a{
+  margin: 0 2em;
+}
+.tri button{
+  margin-right: 3em;
+}
+.critique h1{
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+.avis figure{
+  width: 8%;
+}
+.avis img{
+  width: 100%;
+}
+.avis{
+  display: flex;
+  justify-content: center;
+  padding: 1em 2em;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Piltover_Zaun_LoR_Background.jpg/revision/latest/scale-to-width-down/1200?cb=20191022172320");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+.contact{
+  background-color: white;
+  padding: 2em;
+}
+.contact h2{
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+.width{
+  width: 33%;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 0 20%;
+}
+.left{
+  text-align: left;
+}
+
+footer{
+  background-color: rgb(55, 63, 54);
+  color: white;
+  padding: 1em 0;
+}
+
+/* CSS accordéon */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+/* Fin CSS accordéon */
+
+
+/* Contact Form */
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=envoyer] {
+    background-color: rgb(255, 165,0);
+    color: white;
+    padding: 12px 2em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+/* Fin contact form */
